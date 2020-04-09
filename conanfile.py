@@ -6,8 +6,7 @@ class TOMLPPConan(ConanFile):
     license = "MIT"
     homepage = "https://github.com/marzer/tomlplusplus"
     url = "https://github.com/luizgabriel/conan-tomlplusplus"
-    description = "TOML config parser and serializer for modern C++" \
-                  "macOS and WASM/WebGL "
+    description = "TOML config parser and serializer for modern C++"
     topics = ("toml++", "toml", "parser")
     exports_sources = "toml++/include/*"
     no_copy_source = True
