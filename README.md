@@ -3,7 +3,7 @@ The conan package for the TOML++ header only library.
 
 ## Installation
 ```sh
-git clone https://github.com/google/filament conan-filament && cd conan-filament
+git clone https://github.com/luizgabriel/conan-tomlplusplus && cd conan-tomlplusplus
 conan export . marzer/stable
 ```
 
